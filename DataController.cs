@@ -8,6 +8,11 @@ namespace flashcards
 {
     internal class DataController
     {
-        public DataController() { }
+        private static string? connectionString = null;
+        public DataController(string? connString) { 
+            connectionString = connString;
+        }
+
+
     }
 }
