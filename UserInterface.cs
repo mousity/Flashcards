@@ -21,6 +21,9 @@ namespace flashcards
                         new SelectionPrompt<MenuOptions>()
                         .Title("\nChoose an option from the menu below to continue.\n")
                         .AddChoices(MenuOptions.ViewAllStacks,
+                                    MenuOptions.StudyAStack,
+                                    MenuOptions.AddFlashcards,
+                                    MenuOptions.AddAStack,
                                     MenuOptions.Quit)
                     );
             }

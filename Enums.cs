@@ -11,6 +11,9 @@ namespace flashcards
         internal enum MenuOptions
         {
             ViewAllStacks,
+            AddAStack,
+            AddFlashcards,
+            StudyAStack,
             Quit
         }
     }
